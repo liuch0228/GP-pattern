@@ -9,12 +9,13 @@ public class CourseFactory {
    /* public ICourse create(String name) {
         if ("java".equals(name)) {
             return new JavaCourse();
+        } else if("python".equals(name)){
+            return new PythonCourse();
         } else {
             return null;
         }
     }*/
-
-    //简单工厂的改进，传入类名，获得创建的对象
+    //简单工厂的改进，使用反射机制获取对象
     public ICourse create(Class clazz) {
         try {
             if (null != clazz) {

@@ -8,7 +8,7 @@ import com.gupaoedu.vip.pattern.factory.ICourse;
  */
 public interface ICourseFactory {
     ICourse createCourse();
-//不仅能创建课程,还能创建笔记和视频
+    //不仅能创建课程,还能创建笔记和视频
     INote createNote();
 
     IVideo createVideo();

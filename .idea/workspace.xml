@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4198e51-029f-4dcf-99a8-12911b158a0e" name="Default Changelist" comment="" />
+    <list default="true" id="b4198e51-029f-4dcf-99a8-12911b158a0e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/ICourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/JavaCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/PythonCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/PythonNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/PythonVideo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/ICourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/ICourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/AbstractFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/AbstractFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/ICourseFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/ICourseFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/INote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/INote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/IVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/IVideo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/JavaNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/JavaNote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/JavaVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/JavaVideo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/PythonFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/PythonCourseFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/factorymethod/ICourseFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/factorymethod/ICourseFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/simplefactory/CourseFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/simplefactory/CourseFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/simplefactory/SimpelFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/simplefactory/SimpelFactoryTest.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +44,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -39,8 +63,9 @@
   </component>
   <component name="ProjectId" id="1P0gB8luJPzQywqD9BlK5k8QhsC" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/lch/test/lsp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -54,15 +79,16 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.gupaoedu.vip.pattern.factory.abstractfactory" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CodeFromGit\GP-pattern\src\main\java\com\gupaoedu\vip\pattern\factory\abstractfactory" />
+      <recent name="D:\IdeaProjects\src\main\java\com\lch\test\lsp" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.gupaoedu.vip.pattern.singleton.test" />
       <recent name="com.lch.test.simpleresponsibility" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IdeaProjects\src\main\java\com\lch\test\lsp" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.gupaoedu.vip.pattern.factory.abstractfactory" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -77,7 +103,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadLocalSingletonTest">
+  <component name="RunManager" selected="Application.AbstractFactoryTest">
     <configuration type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.gupaoedu.vip.pattern.singleton.test.LazySimpleSingletonTest" />
       <module name="IdeaProjects" />
@@ -87,6 +113,19 @@
     </configuration>
     <configuration name="Unnamed" type="Applet" nameIsGenerated="true">
       <module name="IdeaProjects" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AbstractFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gupaoedu.vip.pattern.factory.abstractfactory.AbstractFactoryTest" />
+      <module name="GP-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gupaoedu.vip.pattern.factory.abstractfactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -104,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnumSingletonReflectTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gupaoedu.vip.pattern.singleton.test.EnumSingletonReflectTest" />
-      <module name="IdeaProjects" />
+    <configuration name="FactoryMethodTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gupaoedu.vip.pattern.factory.factorymethod.FactoryMethodTest" />
+      <module name="GP-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gupaoedu.vip.pattern.singleton.test.*" />
+          <option name="PATTERN" value="com.gupaoedu.vip.pattern.factory.factorymethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,6 +159,19 @@
     <configuration name="SerializableSingletonTest" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gupaoedu.vip.pattern.singleton.test.SerializableSingletonTest" />
       <module name="IdeaProjects" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpelFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gupaoedu.vip.pattern.factory.simplefactory.SimpelFactoryTest" />
+      <module name="GP-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gupaoedu.vip.pattern.factory.simplefactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,15 +192,19 @@
     <list>
       <item itemvalue="Applet.Unnamed" />
       <item itemvalue="Application.SerializableSingletonTest" />
-      <item itemvalue="Application.EnumSingletonReflectTest" />
       <item itemvalue="Application.ContainerSingletonTest" />
       <item itemvalue="Application.ThreadLocalSingletonTest" />
+      <item itemvalue="Application.SimpelFactoryTest" />
+      <item itemvalue="Application.FactoryMethodTest" />
+      <item itemvalue="Application.AbstractFactoryTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AbstractFactoryTest" />
+        <item itemvalue="Application.FactoryMethodTest" />
+        <item itemvalue="Application.SimpelFactoryTest" />
         <item itemvalue="Application.ThreadLocalSingletonTest" />
         <item itemvalue="Application.ContainerSingletonTest" />
-        <item itemvalue="Application.EnumSingletonReflectTest" />
       </list>
     </recent_temporary>
   </component>
@@ -179,11 +235,23 @@
       <workItem from="1566481231940" duration="6322000" />
       <workItem from="1566515952503" duration="3700000" />
       <workItem from="1566607182000" duration="5190000" />
+      <workItem from="1566826648489" duration="7794000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

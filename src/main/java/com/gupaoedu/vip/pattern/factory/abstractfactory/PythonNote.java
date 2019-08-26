@@ -1,8 +1,8 @@
 package com.gupaoedu.vip.pattern.factory.abstractfactory;
 
-public class JavaNote implements INote {
+public class PythonNote implements INote {
     @Override
     public void edit() {
-        System.out.println("编写java笔记");
+        System.out.println("编写python笔记");
     }
 }
