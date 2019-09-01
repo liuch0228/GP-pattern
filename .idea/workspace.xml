@@ -2,39 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4198e51-029f-4dcf-99a8-12911b158a0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/prototype/deep/DeepCloneTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/prototype/deep/JinGuBang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/prototype/deep/Monkey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/prototype/deep/QiTianDaSheng.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/prototype/simple/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/prototype/simple/ConcretePrototypeA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/prototype/simple/ConcretePrototypeB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/prototype/simple/Prototype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/prototype/simple/PrototypeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/dbroute/DbRouterProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/dbroute/IorderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/dbroute/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/dbroute/OrderDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/dbroute/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/dbroute/db/DynamicDataSourceEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/dbroute/proxy/OrderServiceDynamicProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/dbroute/proxy/OrderServiceStaticProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/dynamicproxy/cglibproxy/CGlibMeipo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/dynamicproxy/cglibproxy/CglibTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/dynamicproxy/cglibproxy/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/dynamicproxy/gpproxy/GPClassLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/dynamicproxy/gpproxy/GPInvocationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/dynamicproxy/gpproxy/GPMeiPo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/dynamicproxy/gpproxy/GPProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/dynamicproxy/gpproxy/GPProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/dynamicproxy/jdkproxy/$Proxy0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/dynamicproxy/jdkproxy/Girl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/dynamicproxy/jdkproxy/JDKMeiPo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/dynamicproxy/jdkproxy/JDKMeiPoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/staticproxy/Father.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/staticproxy/FatherProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/staticproxy/Son.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/delegate/mvc/DispathcerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/delegate/mvc/controllers/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/delegate/mvc/controllers/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/delegate/mvc/controllers/SystemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/delegate/simple/Boss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/delegate/simple/DelegateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/delegate/simple/EmployeeA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/delegate/simple/EmployeeB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/delegate/simple/IEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/delegate/simple/Leader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -124,7 +102,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CglibTest">
+  <component name="RunManager" selected="Application.DelegateTest">
     <configuration type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.gupaoedu.vip.pattern.singleton.test.LazySimpleSingletonTest" />
       <module name="IdeaProjects" />
@@ -164,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FatherProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gupaoedu.vip.pattern.proxy.staticproxy.FatherProxyTest" />
+    <configuration name="DelegateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gupaoedu.vip.pattern.delegate.simple.DelegateTest" />
       <module name="GP-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gupaoedu.vip.pattern.proxy.staticproxy.*" />
+          <option name="PATTERN" value="com.gupaoedu.vip.pattern.delegate.simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,19 +191,19 @@
     <list>
       <item itemvalue="Applet.Unnamed" />
       <item itemvalue="Application.SerializableSingletonTest" />
-      <item itemvalue="Application.FatherProxyTest" />
       <item itemvalue="Application.DbRouterProxyTest" />
       <item itemvalue="Application.JDKMeiPoTest" />
       <item itemvalue="Application.GPProxyTest" />
       <item itemvalue="Application.CglibTest" />
+      <item itemvalue="Application.DelegateTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DelegateTest" />
         <item itemvalue="Application.CglibTest" />
         <item itemvalue="Application.DbRouterProxyTest" />
         <item itemvalue="Application.GPProxyTest" />
         <item itemvalue="Application.JDKMeiPoTest" />
-        <item itemvalue="Application.FatherProxyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -264,6 +242,7 @@
       <workItem from="1567090060419" duration="3008000" />
       <workItem from="1567209951660" duration="9845000" />
       <workItem from="1567234706880" duration="5296000" />
+      <workItem from="1567297898812" duration="4382000" />
     </task>
     <servers />
   </component>
