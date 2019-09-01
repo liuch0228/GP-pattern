@@ -2,19 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4198e51-029f-4dcf-99a8-12911b158a0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/delegate/mvc/DispathcerServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/delegate/mvc/controllers/MemberController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/delegate/mvc/controllers/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/delegate/mvc/controllers/SystemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/delegate/simple/Boss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/delegate/simple/DelegateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/delegate/simple/EmployeeA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/delegate/simple/EmployeeB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/delegate/simple/IEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/delegate/simple/Leader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/pay/MessageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/pay/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/pay/PayStrategyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/pay/payport/AliPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/pay/payport/JDPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/pay/payport/PayStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/pay/payport/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/pay/payport/UnionPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/pay/payport/WechatPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/promotion/CashBackStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/promotion/CouponStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/promotion/EmptyStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/promotion/GroupBuyStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/promotion/PromotionActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/promotion/PromotionActivityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/promotion/PromotionStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/promotion/PromotionStrategyFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/delegate/mvc/DispathcerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/delegate/mvc/DispathcerServlet.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,9 +82,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\CodeFromGit\GP-pattern\src\main\java\com\gupaoedu\vip\pattern\factory\abstractfactory" />
-      <recent name="D:\IdeaProjects\src\main\java\com\lch\test\lsp" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.gupaoedu.vip.pattern.proxy.dbroute" />
+      <recent name="com.gupaoedu.vip.pattern.factory.abstractfactory" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.gupaoedu.vip.pattern.proxy.dynamicproxy.gpproxy" />
@@ -85,9 +92,9 @@
       <recent name="com.gupaoedu.vip.pattern.singleton.test" />
       <recent name="com.lch.test.simpleresponsibility" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.gupaoedu.vip.pattern.proxy.dbroute" />
-      <recent name="com.gupaoedu.vip.pattern.factory.abstractfactory" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CodeFromGit\GP-pattern\src\main\java\com\gupaoedu\vip\pattern\factory\abstractfactory" />
+      <recent name="D:\IdeaProjects\src\main\java\com\lch\test\lsp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -102,7 +109,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DelegateTest">
+  <component name="RunManager" selected="Application.PayStrategyTest">
     <configuration type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.gupaoedu.vip.pattern.singleton.test.LazySimpleSingletonTest" />
       <module name="IdeaProjects" />
@@ -155,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GPProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gupaoedu.vip.pattern.proxy.dynamicproxy.gpproxy.GPProxyTest" />
+    <configuration name="PayStrategyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gupaoedu.vip.pattern.strategy.pay.PayStrategyTest" />
       <module name="GP-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gupaoedu.vip.pattern.proxy.dynamicproxy.gpproxy.*" />
+          <option name="PATTERN" value="com.gupaoedu.vip.pattern.strategy.pay.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,12 +175,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JDKMeiPoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gupaoedu.vip.pattern.proxy.dynamicproxy.jdkproxy.JDKMeiPoTest" />
+    <configuration name="PromotionActivityTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gupaoedu.vip.pattern.strategy.promotion.PromotionActivityTest" />
       <module name="GP-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gupaoedu.vip.pattern.proxy.dynamicproxy.jdkproxy.*" />
+          <option name="PATTERN" value="com.gupaoedu.vip.pattern.strategy.promotion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,18 +199,18 @@
       <item itemvalue="Applet.Unnamed" />
       <item itemvalue="Application.SerializableSingletonTest" />
       <item itemvalue="Application.DbRouterProxyTest" />
-      <item itemvalue="Application.JDKMeiPoTest" />
-      <item itemvalue="Application.GPProxyTest" />
       <item itemvalue="Application.CglibTest" />
       <item itemvalue="Application.DelegateTest" />
+      <item itemvalue="Application.PromotionActivityTest" />
+      <item itemvalue="Application.PayStrategyTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PayStrategyTest" />
+        <item itemvalue="Application.PromotionActivityTest" />
         <item itemvalue="Application.DelegateTest" />
         <item itemvalue="Application.CglibTest" />
         <item itemvalue="Application.DbRouterProxyTest" />
-        <item itemvalue="Application.GPProxyTest" />
-        <item itemvalue="Application.JDKMeiPoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +249,7 @@
       <workItem from="1567090060419" duration="3008000" />
       <workItem from="1567209951660" duration="9845000" />
       <workItem from="1567234706880" duration="5296000" />
-      <workItem from="1567297898812" duration="4382000" />
+      <workItem from="1567297898812" duration="14723000" />
     </task>
     <servers />
   </component>
