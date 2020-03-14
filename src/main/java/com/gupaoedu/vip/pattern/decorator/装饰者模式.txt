@@ -22,3 +22,9 @@ org.apache.ibatis.cache.decorators.LruCache等
 缺点：
 会出现更多的代码，更多的类，增加程序复杂性
 动态装饰时，多层装饰时会更复杂
+
+
+
+
+
+org.springframework.jdbc.support.JdbcUtils.closeConnection

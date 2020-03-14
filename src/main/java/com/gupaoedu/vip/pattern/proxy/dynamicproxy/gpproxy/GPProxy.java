@@ -7,6 +7,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
+import java.lang.reflect.Type;
 import java.nio.charset.Charset;
 
 public class GPProxy {
@@ -53,7 +54,7 @@ public class GPProxy {
     private static String generateSrc(Class<?>[] interfaces) {
         StringBuffer sb = new StringBuffer();
         sb.append("package com.gupaoedu.vip.pattern.proxy.dynamicproxy.gpproxy;" + ln);
-//        sb.append("import com.gupaoedu.vip.pattern.proxy.Person;" + ln);
+        sb.append("import com.gupaoedu.vip.pattern.proxy.dynamicproxy.gpproxy.Person;" + ln);
         sb.append("import java.lang.reflect.*;" + ln);
         sb.append("public class $Proxy0 implements " + interfaces[0].getName() + "{" +ln);
 
@@ -63,11 +64,34 @@ public class GPProxy {
         sb.append("}") ;//end of consutructor
 
         //根据接口生成findLove方法
+        /*
+        * public final void findLove(int i)
+    {
+        try
+        {
+            super.h.invoke(this, m3, new Object[] {
+                Integer.valueOf(i)
+            });
+            return;
+        }
+        catch(Error _ex) { }
+        catch(Throwable throwable)
+        {
+            throw new UndeclaredThrowableException(throwable);
+        }
+    }
+        * */
+
+
         for(Method m:interfaces[0].getMethods()){
-            sb.append(ln + "public " + m.getReturnType().getName() +" " + m.getName() + "(){"  + ln);
+            Type[] paramTypeList = m.getGenericParameterTypes();// 方法的参数列表
+            // 获取形参的类型
+            Type type = paramTypeList[0];
+            sb.append(ln + "public " + m.getReturnType().getName() +" " + m.getName() + "("+ type + " i ){"  + ln);
                 sb.append("try{" + ln);
-                    sb.append("Method m =" +interfaces[0].getName() + ".class.getMethod(\""+ m.getName()+"\",new Class[]{});" + ln);
-                    sb.append("this.h.invoke(this,m,null);" + ln);
+                    sb.append("Method m =" +interfaces[0].getName() + ".class.getMethod(\""+ m.getName()+"\",new Class[]{" + type + ".class" +  "});" + ln);
+                    sb.append("");
+                    sb.append("this.h.invoke(this,m,new Object[]{i});" + ln);
                     sb.append("   }catch(Throwable e){" + ln);
                 sb.append("e.printStackTrace(); " +ln);
                 sb.append("}" + ln);//end of catch

@@ -8,7 +8,7 @@ public class Father {
     }
     public void findLove(){
         System.out.println("父亲物色对象");
-        this.son.findLove();
+        this.son.findLove(20);
         System.out.println("双方父母同意，确立关系 ");
     }
 }

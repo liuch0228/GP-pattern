@@ -9,7 +9,7 @@ public class LazySimpleSingleton {
 
     private LazySimpleSingleton(){}
 
-    /*public static LazySimpleSingleton getInstance(){
+  /*  public static LazySimpleSingleton getInstance(){
         if(null == lazy) { //在这里加断点调试
             lazy = new LazySimpleSingleton();
         }
@@ -17,11 +17,11 @@ public class LazySimpleSingleton {
     }*/
     //加synchronized关键字可以解决线程安全问题,但是会带来2个问题,1:性能问题,2 synchronized有可能会锁住整个LazySimpleSingleton类,甚至导致死锁
     //解决办法:使用双重加锁检查机制
-    public synchronized static LazySimpleSingleton getInstance(){
-        if(null == lazy) { //在这里加断点调试
-            lazy = new LazySimpleSingleton();
-        }
-        return lazy;
-    }
+  public synchronized static LazySimpleSingleton getInstance() {
+      if (null == lazy) { //在这里加断点调试
+          lazy = new LazySimpleSingleton();
+      }
+      return lazy;
+  }
 
 }

@@ -14,12 +14,20 @@ import java.util.List;
  */
 public abstract class JdbcTemplate {
 
+     // 数据源，通过构造方法设置
     private DataSource dataSource;
 
     public JdbcTemplate(DataSource dataSource) {
         this.dataSource = dataSource;
     }
 
+    /**
+     *
+     * @param sql
+     * @param rowMapper
+     * @param values sql入参
+     * @return
+     */
     public List<?> executeQuery(String sql, RowMapper<?> rowMapper, Object[] values) {
         try {
             //1.获取连接

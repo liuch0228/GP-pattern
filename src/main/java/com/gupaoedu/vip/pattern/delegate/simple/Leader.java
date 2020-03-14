@@ -3,7 +3,10 @@ package com.gupaoedu.vip.pattern.delegate.simple;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Leader {
+/**
+ * 负责任务调度
+ */
+public class Leader implements IEmployee {
     //leader预先知道每个员工的特长
     private Map<String, IEmployee> register = new HashMap<>();
 

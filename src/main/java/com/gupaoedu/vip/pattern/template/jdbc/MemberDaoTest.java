@@ -68,5 +68,9 @@ public class MemberDaoTest {
 
     * */
 
+    // 相同的步骤，方法在模板的抽象类里面规定了，子类中会存在不同的部分的方法，留给用户自己去实现！！！
+
+    //org.apache.ibatis.executor.BaseExecutor.doQuery 该方法也是BaseExecutor这个模板中的需要子类自己去实现的方法
+// HttpServlet  中也使用了模板方法模式
 
 }

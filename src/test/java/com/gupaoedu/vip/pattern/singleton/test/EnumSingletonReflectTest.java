@@ -22,6 +22,7 @@ public class EnumSingletonReflectTest {
 
 //获取有参构造，继续通过反射破坏单例
             Constructor c = clazz.getDeclaredConstructor(String.class,int.class);
+            c.setAccessible(true);
             EnumSingleton obj = (EnumSingleton)c.newInstance("tom", 999);
             System.out.println(obj);
             /**
