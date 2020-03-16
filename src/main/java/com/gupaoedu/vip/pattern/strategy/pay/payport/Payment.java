@@ -9,8 +9,10 @@ import com.gupaoedu.vip.pattern.strategy.pay.MessageResult;
  */
 public abstract class Payment {
 
+    // 支付方式
     public abstract String getName();
 
+    // 通用逻辑放到抽象类里面（模板方法模式）
     protected abstract double queryBalance(String uid);
 
     public MessageResult pay(String uid, double amount) {
