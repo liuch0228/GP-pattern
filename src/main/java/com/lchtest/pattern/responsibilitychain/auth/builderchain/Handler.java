@@ -9,7 +9,7 @@ public abstract class Handler<T> {
     }
 
     // 抽象方法，每个具体的handler处理一种验证
-    public abstract void doHandler(Member member);
+    public abstract void validate(Member member);
 
     protected static class Builder<T> {
         private Handler<T> head;

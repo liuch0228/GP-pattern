@@ -8,12 +8,12 @@ import com.lchtest.pattern.responsibilitychain.auth.Member;
 public class MemberService {
 
     public void login(String loginName, String loginPass) {
-      Handler validateHandler = new ValidateHandler();
-      Handler loginHandler = new LoginHandler();
-      Handler authHandler = new AuthHandler();
+      Handler validateHandler = new LoginNameValidateHandler();
+      Handler loginHandler = new LoginStateValidateHandler();
+      Handler authHandler = new PermissionAuthHandler();
       // 设置责任链关系 这里有个缺点，如果handler的个数非常多，这里就显得很繁琐了，可以采用建造者模式改进
       validateHandler.next(loginHandler);
       loginHandler.next(authHandler);
-      validateHandler.doHandler(new Member(loginName,loginPass));
+      validateHandler.validate(new Member(loginName,loginPass));
     }
 }

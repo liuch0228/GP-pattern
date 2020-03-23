@@ -8,6 +8,6 @@ public abstract  class Handler {
         this.nextHandler = handler;
     }
     // 抽象方法，每个具体的handler处理一种验证
-    public abstract void doHandler(Member member);
+    public abstract void validate(Member member);
 
 }

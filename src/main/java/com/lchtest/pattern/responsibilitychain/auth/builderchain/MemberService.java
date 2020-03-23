@@ -18,9 +18,9 @@ public class MemberService {
 //      validateHandler.doHandler(new Member(loginName,loginPass));
         // 通过建造者模式创建过滤器链
         Handler.Builder<Handler> builder = new Handler.Builder<>();
-        Handler executeHandler = builder.add(new ValidateHandler())
-                .add(new LoginHandler())
-                .add(new AuthHandler()).build();
-        executeHandler.doHandler(new Member(loginName, loginPass));
+        Handler executeHandler = builder.add(new LoginNameValidateHandler())
+                .add(new LoginStateValidateHandler())
+                .add(new PermissionAuthHandler()).build();
+        executeHandler.validate(new Member(loginName, loginPass));
     }
 }

@@ -2,310 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4198e51-029f-4dcf-99a8-12911b158a0e" name="Default Changelist" comment="增加mysql驱动的依赖">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/general/classadapter/Adaptee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/general/classadapter/Adapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/general/classadapter/Target.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/general/classadapter/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/loginadapter/v1/service/SinginForThirdService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/loginadapter/v2/PassportTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/poweradapter/classadapter/AC220.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/poweradapter/classadapter/PowerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/poweradapter/classadapter/PowerAdapterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/poweradapter/interfaceadapter/AC220.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/poweradapter/interfaceadapter/DC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/poweradapter/interfaceadapter/PowerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/poweradapter/interfaceadapter/PowerAdapterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/poweradapter/objectadapter/AC220.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/poweradapter/objectadapter/DC5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/poweradapter/objectadapter/PowerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/factory/abstractfactory/INote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/factory/abstractfactory/IVideo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/factory/factorymethod/PythonCourseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/proxy/dynamicproxy/gpproxy/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/proxy/dynamicproxy/jdkproxy/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/singleton/lazy/LazyInnerclassSingletonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/lchtest/pattern/singleton/test/Pojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/passport/v1/IPassportForThird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/passport/v1/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/passport/v1/PassportAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/passport/v1/PassportService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/passport/v1/ResultMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/passport/v1/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/passport/v2/ILoginAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/passport/v2/IPassportForThird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/passport/v2/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/passport/v2/PassportForThirdAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/passport/v2/PassportService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/passport/v2/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/passport/v2/adapters/CommonAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/passport/v2/adapters/QQLoginAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/passport/v2/adapters/TelePhoneLoginAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/passport/v2/adapters/TokenLoginAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/passport/v2/adapters/WeboLoginAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/passport/v2/adapters/WechatLoginAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/delegate/general/ConcreteTaskA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/delegate/general/ConcreteTaskB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/delegate/general/Delegate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/delegate/general/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/delegate/general/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/adapter/loginadapter/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/loginadapter/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/adapter/loginadapter/ResultMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/loginadapter/ResultMsg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/adapter/loginadapter/v1/SiginForThirdServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/loginadapter/v1/SiginForThirdServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/adapter/loginadapter/v1/service/SiginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/loginadapter/v1/service/SiginService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/adapter/loginadapter/v1/service/SinginForThirdService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/adapter/loginadapter/v1/service/SinginForThirdService1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/loginadapter/v1/service/SinginForThirdService1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/adapter/loginadapter/v2/IPassportForThird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/loginadapter/v2/IPassportForThird.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/adapter/loginadapter/v2/PassportForThirdAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/loginadapter/v2/PassportForThirdAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/adapter/loginadapter/v2/PassportTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/adapter/loginadapter/v2/adapters/LoginAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/loginadapter/v2/adapters/LoginAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/adapter/loginadapter/v2/adapters/LoginForQQAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/loginadapter/v2/adapters/LoginForQQAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/adapter/loginadapter/v2/adapters/LoginForSinaAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/loginadapter/v2/adapters/LoginForSinaAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/adapter/loginadapter/v2/adapters/LoginForTelAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/loginadapter/v2/adapters/LoginForTelAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/adapter/loginadapter/v2/adapters/LoginForTokenAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/loginadapter/v2/adapters/LoginForTokenAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/adapter/loginadapter/v2/adapters/LoginForWechatAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/loginadapter/v2/adapters/LoginForWechatAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/adapter/loginadapter/v2/adapters/RegistAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/loginadapter/v2/adapters/RegistAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/adapter/loginadapter/v2/adapters/RegistForQQAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/loginadapter/v2/adapters/RegistForQQAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/adapter/poweradapter/AC220.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/adapter/poweradapter/DC5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/poweradapter/classadapter/DC5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/adapter/poweradapter/PowerAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/adapter/poweradapter/PowerAdapterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/poweradapter/objectadapter/PowerAdapterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/adapter/笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/笔记.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/birdge/JDBCBridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/birdge/JDBCBridge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/birdge/general/Abstraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/birdge/general/Abstraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/birdge/general/ConcreteImplementorA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/birdge/general/ConcreteImplementorA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/birdge/general/ConcreteImplementorB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/birdge/general/ConcreteImplementorB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/birdge/general/IImplementor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/birdge/general/IImplementor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/birdge/general/RefinedAbstraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/birdge/general/RefinedAbstraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/birdge/general/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/birdge/general/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/birdge/message/AbstractMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/birdge/message/AbstractMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/birdge/message/EmailMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/birdge/message/EmailMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/birdge/message/IMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/birdge/message/IMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/birdge/message/NormalMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/birdge/message/NormalMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/birdge/message/SystemMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/birdge/message/SystemMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/birdge/message/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/birdge/message/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/birdge/message/UrgencyMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/birdge/message/UrgencyMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/builder/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/builder/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/builder/ComputerBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/builder/ComputerBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/builder/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/builder/Director.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/builder/IComputerBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/builder/IComputerBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/composit/demo/safe/Directory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/composit/demo/safe/Directory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/composit/demo/transparent/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/composit/demo/transparent/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/composit/demo/transparent/CourseComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/composit/demo/transparent/CourseComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/composit/demo/transparent/CourseCompositeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/composit/demo/transparent/CourseCompositeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/composit/demo/transparent/CoursePackage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/composit/demo/transparent/CoursePackage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/composite/general/safe/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/composite/general/safe/Component.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/composite/general/safe/Composite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/composite/general/safe/Composite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/composite/general/safe/Leaf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/composite/general/safe/Leaf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/composite/general/safe/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/composite/general/safe/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/composite/general/transparent/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/composite/general/transparent/Component.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/composite/general/transparent/Composite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/composite/general/transparent/Composite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/composite/general/transparent/Leaf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/composite/general/transparent/Leaf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/composite/general/transparent/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/composite/general/transparent/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/decorator/battercake/v1/BatterCakeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/decorator/battercake/v1/BatterCakeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/decorator/battercake/v1/Battercake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/decorator/battercake/v1/Battercake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/decorator/battercake/v1/BattercakeWithEgg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/decorator/battercake/v1/BattercakeWithEgg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/decorator/battercake/v1/BattercakeWithEggAndSausage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/decorator/battercake/v1/BattercakeWithEggAndSausage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/decorator/battercake/v2/BaseBattercake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/decorator/battercake/v2/BaseBattercake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/decorator/battercake/v2/BatterCakeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/decorator/battercake/v2/BatterCakeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/decorator/battercake/v2/Battercake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/decorator/battercake/v2/Battercake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/decorator/battercake/v2/BattercakeDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/decorator/battercake/v2/BattercakeDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/decorator/battercake/v2/EggDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/decorator/battercake/v2/EggDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/decorator/battercake/v2/SausageDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/decorator/battercake/v2/SausageDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/decorator/gpmenu/BaseMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/decorator/gpmenu/BaseMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/decorator/gpmenu/GPMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/decorator/gpmenu/GPMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/decorator/gpmenu/ManagerMenuDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/decorator/gpmenu/ManagerMenuDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/decorator/gpmenu/MenuDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/decorator/gpmenu/MenuDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/decorator/gpmenu/MenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/decorator/gpmenu/MenuTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/decorator/gpmenu/VIPMenuDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/decorator/gpmenu/VIPMenuDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/decorator/logger/JsonLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/decorator/logger/JsonLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/decorator/logger/JsonLoggerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/decorator/logger/JsonLoggerFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/decorator/logger/LoggerDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/decorator/logger/LoggerDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/decorator/logger/LoggerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/decorator/logger/LoggerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/decorator/passort/old/ISiginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/decorator/passort/old/ISiginService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/decorator/passort/old/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/decorator/passort/old/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/decorator/passort/old/ResultMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/decorator/passort/old/ResultMsg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/decorator/passort/old/SinginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/decorator/passort/old/SinginService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/decorator/passort/upgrade/DecoratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/decorator/passort/upgrade/DecoratorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/decorator/passort/upgrade/ISiginForThirdService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/decorator/passort/upgrade/ISiginForThirdService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/decorator/passort/upgrade/SiginForThirdService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/decorator/passort/upgrade/SiginForThirdService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/decorator/装饰者模式.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/decorator/装饰者模式.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/delegate/mvc/DispathcerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/delegate/mvc/MyDispathcerServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/delegate/mvc/controllers/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/delegate/mvc/controllers/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/delegate/mvc/controllers/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/delegate/mvc/controllers/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/delegate/mvc/controllers/SystemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/delegate/mvc/controllers/SystemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/delegate/simple/Boss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/delegate/simple/Boss.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/delegate/simple/DelegateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/delegate/simple/DelegateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/delegate/simple/EmployeeA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/delegate/simple/EmployeeA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/delegate/simple/EmployeeB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/delegate/simple/EmployeeB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/delegate/simple/IEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/delegate/simple/IEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/delegate/simple/Leader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/delegate/simple/Leader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/ICourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/factory/ICourse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/JavaCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/factory/JavaCourse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/PythonCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/factory/PythonCourse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/AbstractFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/factory/abstractfactory/AbstractFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/ICourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/factory/abstractfactory/ICourse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/ICourseFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/factory/abstractfactory/ICourseFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/INote.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/IVideo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/JavaCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/factory/abstractfactory/JavaCourse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/JavaCourseFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/factory/abstractfactory/JavaCourseFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/JavaNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/factory/abstractfactory/JavaNote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/JavaVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/factory/abstractfactory/JavaVideo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/PythonCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/factory/abstractfactory/PythonCourse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/PythonCourseFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/factory/abstractfactory/PythonCourseFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/PythonNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/factory/abstractfactory/PythonNote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/abstractfactory/PythonVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/factory/abstractfactory/PythonVideo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/factorymethod/FactoryMethodTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/factory/factorymethod/FactoryMethodTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/factorymethod/ICourseFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/factory/factorymethod/ICourseFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/factorymethod/JavaCourseFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/factory/factorymethod/JavaCourseFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/factorymethod/PythonCourseFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/simplefactory/CourseFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/factory/simplefactory/CourseFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/factory/simplefactory/SimpelFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/factory/simplefactory/SimpelFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/flyweight/IntegerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/flyweight/IntegerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/flyweight/StringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/flyweight/StringTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/flyweight/general/ConcreteFlyweight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/flyweight/general/ConcreteFlyweight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/flyweight/general/FlyweightFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/flyweight/general/FlyweightFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/flyweight/general/IFlyweight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/flyweight/general/IFlyweight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/flyweight/general/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/flyweight/general/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/flyweight/pool/ConnectionPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/flyweight/pool/ConnectionPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/flyweight/pool/ConnectionPoolTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/flyweight/pool/ConnectionPoolTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/flyweight/ticket/ITicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/flyweight/ticket/ITicket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/flyweight/ticket/TicketFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/flyweight/ticket/TicketFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/flyweight/ticket/TicketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/flyweight/ticket/TicketTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/flyweight/ticket/TrainTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/flyweight/ticket/TrainTicket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/observer/events/MouseEventTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/observer/events/MouseEventTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/observer/events/core/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/observer/events/core/Event.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/observer/events/core/EventLisenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/observer/events/core/EventLisenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/observer/events/mouseevent/Keybord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/observer/events/mouseevent/Keybord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/observer/events/mouseevent/Mouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/observer/events/mouseevent/Mouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/observer/events/mouseevent/MouseEventCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/observer/events/mouseevent/MouseEventCallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/observer/events/mouseevent/MouseEventType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/observer/events/mouseevent/MouseEventType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/observer/gperadvice/GPer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/observer/gperadvice/GPer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/observer/gperadvice/ObserverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/observer/gperadvice/ObserverTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/observer/gperadvice/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/observer/gperadvice/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/observer/gperadvice/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/observer/gperadvice/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/observer/guava/GuavaEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/observer/guava/GuavaEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/observer/guava/GuavaEventTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/observer/guava/GuavaEventTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/prototype/deep/DeepCloneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/prototype/deep/DeepCloneTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/prototype/deep/JinGuBang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/prototype/deep/JinGuBang.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/prototype/deep/Monkey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/prototype/deep/Monkey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/prototype/deep/QiTianDaSheng.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/prototype/deep/QiTianDaSheng.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/prototype/deepclone/ConcretePrototype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/prototype/deepclone/ConcretePrototype.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/prototype/deepclone/DeepCloneByJsonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/prototype/deepclone/DeepCloneByJsonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/prototype/deepclone/DeepCloneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/prototype/deepclone/DeepCloneTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/prototype/shallowclone/ConcretePrototype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/prototype/shallowclone/ConcretePrototype.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/prototype/shallowclone/ShallowCloneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/prototype/shallowclone/ShallowCloneTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/prototype/simple/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/prototype/simple/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/prototype/simple/ConcretePrototypeA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/prototype/simple/ConcretePrototypeA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/prototype/simple/ConcretePrototypeB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/prototype/simple/ConcretePrototypeB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/prototype/simple/Prototype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/prototype/simple/Prototype.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/prototype/simple/PrototypeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/prototype/simple/PrototypeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/proxy/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/dbroute/DbRouterProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/proxy/dbroute/DbRouterProxyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/dbroute/IorderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/proxy/dbroute/IorderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/dbroute/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/proxy/dbroute/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/dbroute/OrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/proxy/dbroute/OrderDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/dbroute/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/proxy/dbroute/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/dbroute/db/DynamicDataSourceEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/proxy/dbroute/db/DynamicDataSourceEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/dbroute/proxy/OrderServiceDynamicProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/proxy/dbroute/proxy/OrderServiceDynamicProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/dbroute/proxy/OrderServiceStaticProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/proxy/dbroute/proxy/OrderServiceStaticProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/dynamicproxy/cglibproxy/CGlibMeipo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/proxy/dynamicproxy/cglibproxy/CGlibMeipo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/dynamicproxy/cglibproxy/CglibTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/proxy/dynamicproxy/cglibproxy/CglibTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/dynamicproxy/cglibproxy/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/proxy/dynamicproxy/cglibproxy/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/dynamicproxy/gpproxy/GPClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/proxy/dynamicproxy/gpproxy/GPClassLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/dynamicproxy/gpproxy/GPInvocationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/proxy/dynamicproxy/gpproxy/GPInvocationHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/dynamicproxy/gpproxy/GPMeiPo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/proxy/dynamicproxy/gpproxy/GPMeiPo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/dynamicproxy/gpproxy/GPProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/proxy/dynamicproxy/gpproxy/GPProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/dynamicproxy/gpproxy/GPProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/proxy/dynamicproxy/gpproxy/GPProxyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/dynamicproxy/gpproxy/Girl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/proxy/dynamicproxy/gpproxy/Girl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/dynamicproxy/gpproxy/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/dynamicproxy/jdkproxy/$Proxy0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/proxy/dynamicproxy/jdkproxy/$Proxy0.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/dynamicproxy/jdkproxy/Girl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/proxy/dynamicproxy/jdkproxy/Girl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/dynamicproxy/jdkproxy/JDKMeiPo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/proxy/dynamicproxy/jdkproxy/JDKMeiPo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/dynamicproxy/jdkproxy/JDKMeiPoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/proxy/dynamicproxy/jdkproxy/JDKMeiPoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/dynamicproxy/jdkproxy/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/staticproxy/Father.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/proxy/staticproxy/Father.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/staticproxy/FatherProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/proxy/staticproxy/FatherProxyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/proxy/staticproxy/Son.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/proxy/staticproxy/Son.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/responsibilitychain/auth/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/responsibilitychain/auth/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/responsibilitychain/auth/builderchain/AuthHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/responsibilitychain/auth/builderchain/AuthHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/responsibilitychain/auth/builderchain/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/responsibilitychain/auth/builderchain/Handler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/responsibilitychain/auth/builderchain/LoginHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/responsibilitychain/auth/builderchain/LoginHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/responsibilitychain/auth/builderchain/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/responsibilitychain/auth/builderchain/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/responsibilitychain/auth/builderchain/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/responsibilitychain/auth/builderchain/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/responsibilitychain/auth/builderchain/ValidateHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/responsibilitychain/auth/builderchain/ValidateHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/responsibilitychain/auth/old/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/responsibilitychain/auth/old/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/responsibilitychain/auth/optimize/AuthHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/responsibilitychain/auth/optimize/AuthHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/responsibilitychain/auth/optimize/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/responsibilitychain/auth/optimize/Handler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/responsibilitychain/auth/optimize/LoginHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/responsibilitychain/auth/optimize/LoginHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/responsibilitychain/auth/optimize/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/responsibilitychain/auth/optimize/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/responsibilitychain/auth/optimize/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/responsibilitychain/auth/optimize/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/responsibilitychain/auth/optimize/ValidateHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/responsibilitychain/auth/optimize/ValidateHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/responsibilitychain/general/ConcreteHandlerA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/responsibilitychain/general/ConcreteHandlerA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/responsibilitychain/general/ConcreteHandlerB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/responsibilitychain/general/ConcreteHandlerB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/responsibilitychain/general/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/responsibilitychain/general/Handler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/responsibilitychain/general/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/responsibilitychain/general/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/singleton/hungry/HungrySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/singleton/hungry/HungrySingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/singleton/lazy/LazyDoubleCheckSimpleSingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/singleton/lazy/LazyDoubleCheckSimpleSingletonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/singleton/lazy/LazyDoubleCheckSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/singleton/lazy/LazyDoubleCheckSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/singleton/lazy/LazyDoubleCheckSingletonReflectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/singleton/lazy/LazyDoubleCheckSingletonReflectTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/singleton/lazy/LazyInnerClassSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/singleton/lazy/LazyInnerClassSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/singleton/lazy/LazyInnerClassSingletonReflectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/singleton/lazy/LazyInnerClassSingletonReflectTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/singleton/lazy/LazyInnerclassSingletonTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/singleton/lazy/LazySimpleSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/singleton/lazy/LazySimpleSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/singleton/lazy/LazySimpleSingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/singleton/lazy/LazySimpleSingletonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/singleton/register/ContainerSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/singleton/register/ContainerSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/singleton/register/EnumSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/singleton/register/EnumSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/singleton/register/EnumSingletonReflectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/singleton/register/EnumSingletonReflectTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/singleton/register/EnumSingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/singleton/register/EnumSingletonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/singleton/seriable/SerializableSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/singleton/seriable/SerializableSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/singleton/seriable/SerializableSingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/singleton/seriable/SerializableSingletonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/singleton/threadlocal/ThreadLocalSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/singleton/threadlocal/ThreadLocalSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/singleton/threadlocal/ThreadLocalSingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/singleton/threadlocal/ThreadLocalSingletonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/softwaredesign/rule/openclosedprinciple/CourseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/softwaredesign/rule/openclosedprinciple/CourseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/softwaredesign/rule/openclosedprinciple/ICourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/softwaredesign/rule/openclosedprinciple/ICourse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/softwaredesign/rule/openclosedprinciple/JavaCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/softwaredesign/rule/openclosedprinciple/JavaCourse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/softwaredesign/rule/openclosedprinciple/JavaDiscountCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/softwaredesign/rule/openclosedprinciple/JavaDiscountCourse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/softwaredesign/rule/simpleresponsibility/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/softwaredesign/rule/simpleresponsibility/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/softwaredesign/rule/simpleresponsibility/LiveCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/softwaredesign/rule/simpleresponsibility/LiveCourse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/softwaredesign/rule/simpleresponsibility/ReplayCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/softwaredesign/rule/simpleresponsibility/ReplayCourse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/softwaredesign/rule/simpleresponsibility/SimpleResponsibilityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/softwaredesign/rule/simpleresponsibility/SimpleResponsibilityTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/softwaredesign/rule/simpleresponsibility/SimpleResponsibilityTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/softwaredesign/rule/simpleresponsibility/SimpleResponsibilityTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/general/ConcreteStrategyA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/strategy/general/ConcreteStrategyA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/general/ConcreteStrategyB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/strategy/general/ConcreteStrategyB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/general/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/strategy/general/Context.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/general/IStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/strategy/general/IStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/general/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/strategy/general/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/pay/MessageResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/strategy/pay/MessageResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/pay/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/strategy/pay/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/pay/PayStrategyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/strategy/pay/PayStrategyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/pay/payport/AliPay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/strategy/pay/payport/AliPay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/pay/payport/JDPay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/strategy/pay/payport/JDPay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/pay/payport/PayStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/strategy/pay/payport/PayStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/pay/payport/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/strategy/pay/payport/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/pay/payport/UnionPay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/strategy/pay/payport/UnionPay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/pay/payport/WechatPay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/strategy/pay/payport/WechatPay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/promotion/CashBackStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/strategy/promotion/CashBackStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/promotion/CouponStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/strategy/promotion/CouponStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/promotion/EmptyStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/strategy/promotion/EmptyStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/promotion/GroupBuyStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/strategy/promotion/GroupBuyStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/promotion/PromotionActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/strategy/promotion/PromotionActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/promotion/PromotionActivityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/strategy/promotion/PromotionActivityTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/promotion/PromotionStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/strategy/promotion/PromotionStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/promotion/PromotionStrategyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/strategy/promotion/PromotionStrategyFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/promotion1/CashbackStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/strategy/promotion1/CashbackStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/promotion1/CouponStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/strategy/promotion1/CouponStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/promotion1/EmptyStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/strategy/promotion1/EmptyStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/promotion1/GroupBuyStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/strategy/promotion1/GroupBuyStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/promotion1/IPromotionStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/strategy/promotion1/IPromotionStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/promotion1/PromotionActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/strategy/promotion1/PromotionActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/promotion1/PromotionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/strategy/promotion1/PromotionFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/promotion1/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/strategy/promotion1/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/promotion1/low/CouponStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/strategy/promotion1/low/CouponStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/promotion1/low/GroupBuyStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/strategy/promotion1/low/GroupBuyStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/promotion1/low/IPromotionStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/strategy/promotion1/low/IPromotionStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/promotion1/low/PromotionActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/strategy/promotion1/low/PromotionActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/strategy/promotion1/low/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/strategy/promotion1/low/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/template/course/BigDataCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/template/course/BigDataCourse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/template/course/JavaCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/template/course/JavaCourse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/template/course/NetworkCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/template/course/NetworkCourse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/template/course/NetworkCourseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/template/course/NetworkCourseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/template/jdbc/JdbcTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/template/jdbc/JdbcTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/template/jdbc/MemberDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/template/jdbc/MemberDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/template/jdbc/RowMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/template/jdbc/RowMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/template/jdbc/dao/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/template/jdbc/dao/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/template/jdbc/dao/MemberDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/template/jdbc/dao/MemberDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/template/jdbc/笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/template/jdbc/笔记.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gupaoedu/vip/pattern/singleton/test/ConcurrentExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lchtest/pattern/singleton/test/ConcurrentExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gupaoedu/vip/pattern/singleton/test/ContainerSingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lchtest/pattern/singleton/test/ContainerSingletonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gupaoedu/vip/pattern/singleton/test/EnumSingletonReflectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lchtest/pattern/singleton/test/EnumSingletonReflectTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gupaoedu/vip/pattern/singleton/test/EnumSingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lchtest/pattern/singleton/test/EnumSingletonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gupaoedu/vip/pattern/singleton/test/ExecutorThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lchtest/pattern/singleton/test/ExecutorThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gupaoedu/vip/pattern/singleton/test/ExecutorThreadDoubleCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lchtest/pattern/singleton/test/ExecutorThreadDoubleCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gupaoedu/vip/pattern/singleton/test/LazyDoubleCheckSimpleSingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lchtest/pattern/singleton/test/LazyDoubleCheckSimpleSingletonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gupaoedu/vip/pattern/singleton/test/LazyInnerClassSingletonReflectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lchtest/pattern/singleton/test/LazyInnerClassSingletonReflectTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gupaoedu/vip/pattern/singleton/test/LazySimpleSingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lchtest/pattern/singleton/test/LazySimpleSingletonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gupaoedu/vip/pattern/singleton/test/Pojo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gupaoedu/vip/pattern/singleton/test/SerializableSingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lchtest/pattern/singleton/test/SerializableSingletonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gupaoedu/vip/pattern/singleton/test/ThreadLocalSingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lchtest/pattern/singleton/test/ThreadLocalSingletonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/loginadapter/v2/PassportForThirdAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/loginadapter/v2/PassportForThirdAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/delegate/simple/DelegateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/delegate/simple/DelegateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/responsibilitychain/auth/builderchain/AuthHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/responsibilitychain/auth/builderchain/PermissionAuthHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/responsibilitychain/auth/builderchain/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/responsibilitychain/auth/builderchain/Handler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/responsibilitychain/auth/builderchain/LoginHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/responsibilitychain/auth/builderchain/LoginStateValidateHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/responsibilitychain/auth/builderchain/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/responsibilitychain/auth/builderchain/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/responsibilitychain/auth/builderchain/ValidateHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/responsibilitychain/auth/builderchain/LoginNameValidateHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/responsibilitychain/auth/optimize/AuthHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/responsibilitychain/auth/optimize/PermissionAuthHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/responsibilitychain/auth/optimize/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/responsibilitychain/auth/optimize/Handler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/responsibilitychain/auth/optimize/LoginHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/responsibilitychain/auth/optimize/LoginStateValidateHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/responsibilitychain/auth/optimize/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/responsibilitychain/auth/optimize/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/responsibilitychain/auth/optimize/ValidateHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lchtest/pattern/responsibilitychain/auth/optimize/LoginNameValidateHandler.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -337,8 +69,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Interface" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -367,7 +99,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/gupaoedu/vip/pattern/adapter/poweradapter/objectadapter" />
+    <property name="last_opened_file_path" value="E:/Baidudownload/2020期课程资料/01.架构师内功心法/02.经典框架中常见的设计模式/11.状态模式与备忘模式详解/课堂笔记与源码/gupaoedu-vip-pattern-state" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -378,29 +110,29 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.gupaoedu.vip.pattern.proxy.dbroute" />
-      <recent name="com.gupaoedu.vip.pattern.factory.abstractfactory" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CodeFromGit\GP-pattern\src\main\java\com\gupaoedu\vip\pattern\proxy\dynamicproxy\jdkproxy" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CodeFromGit\GP-pattern\src\main\java\com\lchtest\pattern\adapter\passport\v2" />
+      <recent name="D:\CodeFromGit\GP-pattern\src\main\java\com\lchtest\pattern\adapter\passport" />
       <recent name="D:\CodeFromGit\GP-pattern\src\main\java\com\gupaoedu\vip\pattern\adapter\poweradapter\objectadapter" />
       <recent name="D:\CodeFromGit\GP-pattern\src\main\java\com\gupaoedu\vip\pattern\strategy\promotion.low" />
       <recent name="D:\CodeFromGit\GP-pattern\src\main\java\com\gupaoedu\vip\pattern\responsibilitychain\auth\builderchain" />
-      <recent name="D:\CodeFromGit\GP-pattern\src\main\java\com\gupaoedu\vip\pattern\responsibilitychain\auth" />
-      <recent name="D:\CodeFromGit\GP-pattern\src\main\java\com\gupaoedu\vip\pattern\composite\general\safe" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lchtest.pattern.delegate.general" />
+      <recent name="com.lchtest.pattern.adapter.passport.v2.adapters" />
+      <recent name="com.lchtest.pattern.adapter.passport.v2" />
       <recent name="com.gupaoedu.vip.pattern.adapter.poweradapter.interfaceadapter" />
       <recent name="com.gupaoedu.vip.pattern.adapter.general.classadapter" />
-      <recent name="com.gupaoedu.vip.pattern.birdge.message" />
-      <recent name="com.gupaoedu.vip.pattern.birdge.general" />
-      <recent name="com.gupaoedu.vip.pattern.responsibilitychain.auth.optimize" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\CodeFromGit\GP-pattern\src\main\java\com\gupaoedu\vip\pattern\proxy\dynamicproxy\jdkproxy" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.gupaoedu.vip.pattern.proxy.dbroute" />
+      <recent name="com.gupaoedu.vip.pattern.factory.abstractfactory" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -415,7 +147,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PowerAdapterTest (2)">
+  <component name="RunManager" selected="Application.DelegateTest">
     <configuration type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.gupaoedu.vip.pattern.singleton.test.LazySimpleSingletonTest" />
       <module name="IdeaProjects" />
@@ -429,38 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PowerAdapterTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gupaoedu.vip.pattern.adapter.poweradapter.objectadapter.PowerAdapterTest" />
+    <configuration name="DelegateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lchtest.pattern.delegate.simple.DelegateTest" />
       <module name="GP-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gupaoedu.vip.pattern.adapter.poweradapter.objectadapter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PowerAdapterTest (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gupaoedu.vip.pattern.adapter.poweradapter.interfaceadapter.PowerAdapterTest" />
-      <module name="GP-pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gupaoedu.vip.pattern.adapter.poweradapter.interfaceadapter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PowerAdapterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gupaoedu.vip.pattern.adapter.poweradapter.classadapter.PowerAdapterTest" />
-      <module name="GP-pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gupaoedu.vip.pattern.adapter.poweradapter.classadapter.*" />
+          <option name="PATTERN" value="com.lchtest.pattern.delegate.simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -476,11 +182,24 @@
       </method>
     </configuration>
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gupaoedu.vip.pattern.adapter.general.classadapter.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.lchtest.pattern.responsibilitychain.auth.optimize.Test" />
       <module name="GP-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gupaoedu.vip.pattern.adapter.general.classadapter.*" />
+          <option name="PATTERN" value="com.lchtest.pattern.responsibilitychain.auth.optimize.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lchtest.pattern.adapter.passport.v2.Test" />
+      <module name="GP-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lchtest.pattern.adapter.passport.v2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -489,11 +208,24 @@
       </method>
     </configuration>
     <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gupaoedu.vip.pattern.birdge.message.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.lchtest.pattern.delegate.general.Test" />
       <module name="GP-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gupaoedu.vip.pattern.birdge.message.*" />
+          <option name="PATTERN" value="com.lchtest.pattern.delegate.general.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lchtest.pattern.adapter.passport.v1.Test" />
+      <module name="GP-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lchtest.pattern.adapter.passport.v1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -504,19 +236,19 @@
     <list>
       <item itemvalue="Applet.Unnamed" />
       <item itemvalue="Application.SerializableSingletonTest" />
-      <item itemvalue="Application.Test (3)" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Test (2)" />
       <item itemvalue="Application.Test (1)" />
-      <item itemvalue="Application.PowerAdapterTest" />
-      <item itemvalue="Application.PowerAdapterTest (1)" />
-      <item itemvalue="Application.PowerAdapterTest (2)" />
+      <item itemvalue="Application.Test (3)" />
+      <item itemvalue="Application.DelegateTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PowerAdapterTest (2)" />
-        <item itemvalue="Application.PowerAdapterTest (1)" />
-        <item itemvalue="Application.PowerAdapterTest" />
-        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.DelegateTest" />
         <item itemvalue="Application.Test (3)" />
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Test (2)" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -597,7 +329,14 @@
       <workItem from="1584368001241" duration="5213000" />
       <workItem from="1584399953084" duration="3929000" />
       <workItem from="1584451195992" duration="7470000" />
-      <workItem from="1584530767423" duration="4009000" />
+      <workItem from="1584530767423" duration="4654000" />
+      <workItem from="1584574419303" duration="3657000" />
+      <workItem from="1584627764506" duration="4103000" />
+      <workItem from="1584658180488" duration="2602000" />
+      <workItem from="1584751494374" duration="7894000" />
+      <workItem from="1584864043813" duration="1095000" />
+      <workItem from="1584884863310" duration="2421000" />
+      <workItem from="1585005814713" duration="363000" />
     </task>
     <task id="LOCAL-00001" summary="增加mysql驱动的依赖">
       <created>1584452661817</created>
@@ -759,6 +498,26 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/lchtest/pattern/flyweight/IntegerTest.java</url>
           <line>19</line>
           <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/passport/v2/PassportForThirdAdapter.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/passport/v2/PassportForThirdAdapter.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/passport/v2/PassportForThirdAdapter.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lchtest/pattern/adapter/passport/v2/adapters/QQLoginAdapter.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/lchtest/pattern/proxy/dbroute/Order.java</url>

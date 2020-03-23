@@ -2,7 +2,6 @@ package com.lchtest.pattern.adapter.loginadapter.v2;
 
 import com.lchtest.pattern.adapter.loginadapter.ResultMsg;
 import com.lchtest.pattern.adapter.loginadapter.v1.service.SiginService;
-import com.gupaoedu.vip.pattern.adapter.loginadapter.v2.adapters.*;
 import com.lchtest.pattern.adapter.loginadapter.v2.adapters.*;
 
 /**
